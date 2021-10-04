@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <form>
+        <br>
+        <div class="titulo">
+            <h2 style="color:#d4ba9d">Cálculo de IMC</h2>
+        </div>
+        <div class="input">
+            <label>Nome:</label>
+            <input type="text" id="txtNome" required />
+        </div>
+        <div class="input">
+            <label>Idade:</label>
+            <input type="number" id="txtIdade" required />
+        </div>
+        <div class="input">
+            <label>Altura:</label>
+            <input type="number" id="txtAltura" required />
+        </div>
+        <div class="input">
+            <label>Peso:</label>
+            <input type="number" id="txtPeso" required />
+        </div>
+        <div class="botao">
+            <button type="button" class="btn btn-warning" id="calcular">Calcular</button>
+            <button type="reset" class="btn btn-warning" id="limpar">Limpar</button>
+        </div>
+        <div style="margin-top: 20px" id="resultado">
+            <h3 id="situacao"></h3>
+            <h3 style="color:#d4ba9d">Seu IMC é de:</h3>
+            <h3 id="IMC"></h3>
+        </div>
+        <br>
+        <script src="./js/script.js"></script>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../img/bg.jpg");
+    padding: 10em;
+    margin-top: 8em;
+}
+
+form{
+    text-align: center;
+    background-color: #111011;
+    border-radius: 20px;
+    width: 25%;
+    margin-left: 37em;
+    color: black;
+}
+
+.input{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#resultado{
+    display: none;
+}
+
+label{
+    color:#d4ba9d;
+}
